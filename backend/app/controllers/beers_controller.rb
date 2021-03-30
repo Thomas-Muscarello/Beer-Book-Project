@@ -11,7 +11,7 @@ class BeersController < ApplicationController
         @beer = @user.beers.find_by(id: params[:id])
         render json: @beer
     end
-
+  
     def create
     end
 

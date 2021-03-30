@@ -333,3 +333,332 @@ Filter chain halted as :authorized rendered or redirected
 Completed 401 Unauthorized in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 371)
 
 
+Started POST "/authenticate" for ::1 at 2021-03-30 09:20:18 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:5: syntax error, unexpected [, expecting do or '{' or '('
+...r = User.find_by(name: params [:name])
+...                              ^
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:5: syntax error, unexpected ')', expecting end
+...r.find_by(name: params [:name])
+...                              ^
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:5: syntax error, unexpected [, expecting do or '{' or '('
+app/controllers/auth_controller.rb:5: syntax error, unexpected ')', expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:5: syntax error, unexpected [, expecting do or '{' or '('
+app/controllers/auth_controller.rb:5: syntax error, unexpected ')', expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started POST "/authenticate" for ::1 at 2021-03-30 09:21:26 -0400
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:5: syntax error, unexpected [, expecting do or '{' or '('
+...r = User.find_by(name: params [:name])
+...                              ^
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:5: syntax error, unexpected ')', expecting end
+...r.find_by(name: params [:name])
+...                              ^
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:5: syntax error, unexpected [, expecting do or '{' or '('
+app/controllers/auth_controller.rb:5: syntax error, unexpected ')', expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:5: syntax error, unexpected [, expecting do or '{' or '('
+app/controllers/auth_controller.rb:5: syntax error, unexpected ')', expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started POST "/authenticate" for ::1 at 2021-03-30 09:23:08 -0400
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started POST "/authenticate" for ::1 at 2021-03-30 09:24:57 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started POST "/authenticate" for ::1 at 2021-03-30 09:26:35 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started POST "/authenticate" for ::1 at 2021-03-30 09:54:10 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started GET "/login" for ::1 at 2021-03-30 09:58:05 -0400
+  [1m[35m (10.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.3.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.6) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.6) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/authenticate" for ::1 at 2021-03-30 09:58:34 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started GET "/login" for ::1 at 2021-03-30 10:17:36 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/login"):
+  
+actionpack (6.0.3.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.6) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.6) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/authenticate" for ::1 at 2021-03-30 10:17:50 -0400
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started POST "/authenticate" for ::1 at 2021-03-30 10:58:48 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+SyntaxError (/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+/Users/thomasmuscarello/Development/Flatiron/projects/Beer-Book-Project/backend/app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+app/controllers/auth_controller.rb:10: syntax error, unexpected '\n', expecting =>
+app/controllers/auth_controller.rb:17: syntax error, unexpected end-of-input, expecting end
+Started POST "/authenticate" for ::1 at 2021-03-30 11:00:25 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#create as */*
+  Parameters: {"name"=>"Eric", "password"=>"[FILTERED]", "auth"=>{"name"=>"Eric", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Eric"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.74ms)
+Completed 200 OK in 305ms (Views: 34.6ms | ActiveRecord: 1.4ms | Allocations: 6958)
+
+
+Started POST "/authenticate" for ::1 at 2021-03-30 11:00:33 -0400
+Processing by AuthController#create as */*
+  Parameters: {"name"=>"Thomas", "password"=>"[FILTERED]", "auth"=>{"name"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.29ms)
+Completed 200 OK in 241ms (Views: 0.8ms | ActiveRecord: 0.2ms | Allocations: 984)
+
+
+Started POST "/authenticate" for ::1 at 2021-03-30 11:00:38 -0400
+Processing by AuthController#create as */*
+  Parameters: {"name"=>"Thomas", "password"=>"[FILTERED]", "auth"=>{"name"=>"Thomas", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Thomas"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.25ms)
+Completed 200 OK in 240ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 975)
+
+
+Started POST "/authenticate" for ::1 at 2021-03-30 11:06:18 -0400
+Processing by AuthController#create as */*
+  Parameters: {"name"=>"Eric", "password"=>"[FILTERED]", "auth"=>{"name"=>"Eric", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."name" = ? LIMIT ?[0m  [["name", "Eric"], ["LIMIT", 1]]
+  ↳ app/controllers/auth_controller.rb:5:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.23ms)
+Completed 200 OK in 228ms (Views: 3.3ms | ActiveRecord: 0.9ms | Allocations: 984)
+
+
+Started GET "/profile" for ::1 at 2021-03-30 11:14:38 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/profile"):
+  
+actionpack (6.0.3.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.6) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.6) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/profile" for ::1 at 2021-03-30 11:14:49 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/profile"):
+  
+actionpack (6.0.3.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.6) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.6) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/profile" for ::1 at 2021-03-30 11:40:58 -0400
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/profile"):
+  
+actionpack (6.0.3.6) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.6) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.6) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.6) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.6) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.3.6) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/profile" for ::1 at 2021-03-30 11:43:40 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#profile as */*
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 707)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/application_controller.rb:28:in `current_user'
+app/controllers/application_controller.rb:35:in `logged_in?'
+app/controllers/application_controller.rb:40:in `authorized'
+Started GET "/profile" for ::1 at 2021-03-30 11:47:36 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#profile as */*
+Completed 500 Internal Server Error in 57742ms (ActiveRecord: 0.0ms | Allocations: 124299)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `current_user'
+app/controllers/application_controller.rb:28:in `current_user'
+app/controllers/application_controller.rb:36:in `logged_in?'
+app/controllers/application_controller.rb:41:in `authorized'
+Started GET "/profile" for ::1 at 2021-03-30 11:48:38 -0400
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by AuthController#profile as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:30:in `current_user'
+  [1m[36mCACHE User Load (0.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:30:in `current_user'
+[active_model_serializers]   [1m[36mBeer Load (2.6ms)[0m  [1m[34mSELECT "beers".* FROM "beers" WHERE "beers"."user_id" = ?[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/auth_controller.rb:15:in `profile'
+[active_model_serializers] Rendered UserSerializer with ActiveModelSerializers::Adapter::Attributes (164.87ms)
+Completed 200 OK in 5520ms (Views: 322.0ms | ActiveRecord: 7.3ms | Allocations: 34612)
+
+

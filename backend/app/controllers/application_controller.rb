@@ -24,7 +24,6 @@ class ApplicationController < ActionController::API
 
     #Finds user id from the decoded token
     def current_user
-        byebug
         if decoded_token
             user_id = decoded_token["user_id"]
             @user = User.find_by(id: user_id)
@@ -38,6 +37,6 @@ class ApplicationController < ActionController::API
 
     #sends a message unless we have a decoded token
     def authorized
-        render json: {error: "These are not the beers you are looking for"}, status: :unauthorized unless logged_in?
+        render json: {error: "You are not authorized"}, status: :unauthorized unless logged_in?
     end
 end

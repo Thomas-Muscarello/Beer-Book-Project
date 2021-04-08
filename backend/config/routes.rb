@@ -7,5 +7,6 @@ Rails.application.routes.draw do
   post '/authenticate', to: 'auth#create'
   get '/profile', to: 'auth#profile'
   post '/profile', to: 'auth#profile'
+  
 
 end

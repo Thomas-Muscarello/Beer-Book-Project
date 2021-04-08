@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-    before_action :authorized, except: [:index]
+    before_action :authorized, except: [:index, :create]
     def index
         @users = User.all
         render json: @users
@@ -11,8 +11,13 @@ class UsersController < ApplicationController
     end
 
     def create
-        @user = User.new(user_params)
-        @user.save
+        user = User.new(user_params)
+        if user.save
+            token = encode_token({user_id: user.id})
+            render json: { user: user, jwt: token }, status: :created
+        else
+            render json: {error: "failed to create user"}, status: :not_acceptable
+        end
     end
 
     def destroy

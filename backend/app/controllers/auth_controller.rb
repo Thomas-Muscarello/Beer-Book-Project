@@ -7,11 +7,12 @@ class AuthController < ApplicationController
             token = encode_token({user_id: user.id})
             render json: {jwt: token, user: user}
         else
-            render json: {error: "Your information is wrong"}, status: :unauthorized
+            render json: {error: "You are missing some information"}, status: :unauthorized
         end
     end
 
     def profile
         render json: @user
     end
+    
 end
